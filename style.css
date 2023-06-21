@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kablammo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+:root {
+  --bgc-color: rgb(178, 209, 179);
+  /* --bgc-color: rgb(246, 250, 250); */
+  --primary-text: rgb(15, 14, 14);
+  --shadow-box: rgba(0, 0, 0, 0.4);
+  --heading-font-color: rgba(12, 105, 219, 0.4);
+  --link-color: #1c1212f2;
+}
+
+.dark-theme {
+  --bgc-color: #085b7f;
+  /* --bgc-color: #030c10; */
+  --primary-text: white;
+  --shadow-box: rgba(0, 0, 0, 0.4);
+  --link-color: #fff;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--primary-text);
+}
+
+.logo {
+  font-family: "Kablammo", cursive;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  align-items: center;
+  cursor: pointer;
+}
+
+#icon {
+  width: 30px;
+  height: 30px;
+  /* color: var(--primary-text); */
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+header {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0;
+  overflow-x: hidden;
+  padding: 60px 0;
+}
+
+body {
+  font-size: 16px;
+  background-color: var(--bgc-color);
+  color: var(--primary-text);
+  font-family: "roboto", sans-serif;
+}
+
+p {
+  font-family: "Roboto Mono", monospace;
+}
+
+nav ul {
+  text-decoration: none;
+  list-style: none;
+  font-weight: bolder;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0;
+  overflow-x: hidden;
+}
+/* main {
+  width: 100%;
+} */
+
+figure {
+  /* width: 300px; */
+}
+
+.box-details {
+  box-shadow: 0px 20px 30px 0px var(--shadow-box);
+  padding: 20px;
+  border-radius: 24px;
+  margin-top: -20px;
+  /* width: 100%; */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-top: 24px;
+}
+
+.link-article {
+  border-top: 24px;
+  overflow: hidden;
+  border-top: 30px;
+  overflow: hidden;
+  margin: 40px 0;
+  padding: 40px 0;
+}
+
+.heading-font {
+  /* font-family: ; */
+  font-size: 12px;
+  background-color: var(--shadow-box);
+  display: flex;
+  padding: 5px 5px 5px 5px;
+  width: fit-content;
+  border-radius: 5px;
+}
+
+.box-article {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+/* BLOG*********** */
+
+.nav-inner-link {
+  font-weight: bolder;
+  font-size: 1.2rem;
+  color: var(--link-color);
+}
+
+.main-dark-nft {
+  font-size: 1rem;
+}
+
+.container-destop {
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px 0;
+  overflow-x: hidden;
+}
+
+.img {
+  /* border-radius: 24px; */
+}
+
+.topic {
+  font-weight: bolder;
+  font-family: "Poppins", sans-serif;
+}
+
+**** */
+
+/* UTILITY*********** */
+
+.my-1 {
+  margin: 10px 0;
+}
+
+.my-2 {
+  margin: 15px 0;
+}
+
+.my-3 {
+  margin: 20px 0;
+}
+
+.my-4 {
+  margin: 25px 0;
+}
+
+.my-3 {
+  margin: 30px 0;
+}
+
+.my-4 {
+  margin: 70px 0;
+}
+
+.mx-1 {
+  margin: 0 10px;
+}
+
+.mx-2 {
+  margin: 0 15px;
+}
+
+.mx-2 {
+  margin: 0 25px;
+}
+
+.py-1 {
+  padding: 5px 0;
+}
+
+.py-2 {
+  padding: 10px 0;
+}
+
+.py-3 {
+  padding: 15px 0;
+}
+
+.px-1 {
+  padding: 0 5px;
+}
+
+.px-2 {
+  padding: 0 15px;
+}
+
+.px-3 {
+  padding: 0 25px;
+}
+
+.md {
+  font-size: 1rem;
+}
+
+.xl {
+  font-size: 1.1rem;
+}
+
+/* DARK-NFT */
+
+@media screen and (min-width: 800px) {
+  .box-article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
+
+  .container-destop {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (min-width: 1037px) {
+  .box-article {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+  }
+
+  .main-dark-nft {
+    font-size: 1rem;
+  }
+
+  .container-destop {
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px 0;
+    overflow-x: hidden;
+  }
+
+  /* .img-box {
+    width: 300px;
+    height: 300px;
+  } */
+}
