@@ -1,4 +1,5 @@
 const icon = document.getElementById("icon");
+const nftImg = document.getElementById("img-nft-darkside");
 
 // Check if the theme preference is stored in localStorage
 const savedTheme = localStorage.getItem("theme");
