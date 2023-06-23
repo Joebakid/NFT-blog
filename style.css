@@ -33,7 +33,7 @@ a {
 }
 
 .logo {
-  font-family: "Kablammo", cursive;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .nav {
@@ -171,13 +171,14 @@ footer {
 .link-author {
   font-weight: bolder;
   font-size: 1.3rem;
-  color: var(--primary-text);
+  color: #fff;
 }
 
 .footer-remark {
   display: inline-block;
   font-size: 1.1rem;
   word-spacing: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .bg-color-footer {
@@ -185,7 +186,7 @@ footer {
   margin: 0 auto;
   padding: 50px 0;
   overflow-x: hidden;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  /* font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; */
 }
 
 **** */
