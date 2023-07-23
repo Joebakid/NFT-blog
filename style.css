@@ -234,6 +234,10 @@ footer {
   margin: 0;
 }
 
+.link-external-article {
+  color: hotpink;
+}
+
 ul {
   /* padding: 0;
   margin: 0; */
