@@ -283,13 +283,12 @@ ul {
 
 ol {
   font-family: 'Roboto Mono', monospace;
-
-  padding: 0 50px;
+  overflow-x: hidden;
 }
 
 li {
-  list-style-type: disc;
-  padding: 30px 0;
+  /* list-style-type: disc; */
+  /* padding: 30px 0; */
 }
 
 /* overlay */
