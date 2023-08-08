@@ -30,3 +30,11 @@ function updateIcon(theme) {
     icon.style.transform = 'rotate(0deg)';
   }
 }
+
+// Get all the `<a>` tags on the page.
+const aTags = document.querySelectorAll('a');
+
+// Loop through all the `<a>` tags and add the `target="_blank"` attribute to them.
+for (const aTag of aTags) {
+  aTag.setAttribute('target', '_blank');
+}
