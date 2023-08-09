@@ -187,8 +187,7 @@
               >@LineaBuild</a
             >
             <p class="fund-raised">
-              Crypto Protocol Linea Raised $726.7 million million at $3B
-              Valuation
+              Crypto Protocol Linea Raised $726.7 million at $3B Valuation
             </p>
             <p class="ceo-project">
               CEO :
@@ -245,8 +244,7 @@
               >@BuildOnBase</a
             >
             <p class="fund-raised">
-              Crypto Protocol Base Raised $498.7 million million at $9B
-              Valuation
+              Crypto Protocol Base Raised $498.7 million at $9B Valuation
             </p>
             <p class="ceo-project">
               CEO :
@@ -286,7 +284,7 @@
               >@ourZORA</a
             >
             <p class="fund-raised">
-              Crypto Protocol zora Raised $60 million million at $600m Valuation
+              Crypto Protocol zora Raised $60 million at $600m Valuation
             </p>
             <p class="ceo-project">
               CEO :
@@ -313,7 +311,7 @@
               >@0xPolygonDeFi</a
             >
             <p class="fund-raised">
-              Crypto Protocol Polygon zkevm Raised $451 million million at $8.3B
+              Crypto Protocol Polygon zkevm Raised $451 million at $8.3B
               Valuation
             </p>
             <p class="ceo-project">
@@ -406,4 +404,15 @@
     nomodule
     src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
   ></script>
+  <script>
+    // Get all the `<a>` tags on the page.
+    const aTags = document.querySelectorAll('a');
+
+    // Loop through all the `<a>` tags and add the `target="_blank"` attribute to them, except for the ones with the class name of `nav-inner-link`.
+    for (const aTag of aTags) {
+      if (!aTag.classList.contains('nav-inner-link')) {
+        aTag.setAttribute('target', '_blank');
+      }
+    }
+  </script>
 </html>
