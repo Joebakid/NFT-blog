@@ -34,7 +34,9 @@ function updateIcon(theme) {
 // Get all the `<a>` tags on the page.
 const aTags = document.querySelectorAll('a');
 
-// Loop through all the `<a>` tags and add the `target="_blank"` attribute to them.
+// Loop through all the `<a>` tags and add the `target="_blank"` attribute to them, except for the ones with the class name of `nav-inner-link`.
 for (const aTag of aTags) {
-  aTag.setAttribute('target', '_blank');
+  if (!aTag.classList.contains('nav-inner-link')) {
+    aTag.setAttribute('target', '_blank');
+  }
 }
