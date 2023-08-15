@@ -125,6 +125,9 @@ img {
   border-top: 24px;
 }
 
+img:hover {
+}
+
 .link-article {
   border-top: 24px;
   overflow: hidden;
@@ -132,6 +135,13 @@ img {
   overflow: hidden;
   margin: 40px 0;
   padding: 40px 0;
+}
+
+.link-article:hover {
+  /* border: 1px solid blueviolet; */
+  /* background-color: gray; */
+  /* width: 90%;
+  transition: all ease-in 0.3s; */
 }
 
 .heading-font {
