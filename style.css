@@ -154,12 +154,22 @@ img:hover {
   width: fit-content;
   border-radius: 5px;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 .box-article {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+}
+
+/* figure img {
+  max-height: 300px;
+  max-width: 1000px;
+} */
+
+.link-img {
+  filter: grayscale(100%);
 }
 
 /* BLOG*********** */
