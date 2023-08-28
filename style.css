@@ -248,6 +248,7 @@ footer {
   transition: all 0.5s ease-in-out;
   text-transform: uppercase;
   /* display: flex; */
+  font-size: 14px;
   text-align: center;
 }
 
@@ -456,6 +457,10 @@ li {
 
 .footer-section-bg {
   background-color: black;
+}
+
+.link-title-heading {
+  margin-bottom: 0px;
 }
 
 /* DARK-NFT */
