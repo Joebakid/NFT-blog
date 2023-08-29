@@ -457,6 +457,7 @@ li {
 
 .footer-section-bg {
   background-color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .link-title-heading {
@@ -485,6 +486,21 @@ li {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 50px;
+  }
+
+  .footer-section-bg {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 50px 200px;
+    display: grid;
+    grid-template-columns: 1.6fr 1fr;
+    align-items: center;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+  }
+
+  .link-title-heading,
+  .general-link a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
   .section {
@@ -516,9 +532,9 @@ li {
     padding: 50px 0;
   }
 
-  .foooter-div-container {
+  /* .foooter-div-container {
     padding: 0 250px;
-  }
+  } */
 
   /* .img-box {
     width: 300px;
