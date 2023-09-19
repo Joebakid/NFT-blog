@@ -4,13 +4,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+
 @import url('https://fonts.cdnfonts.com/css/cascadia-code');
 
-/* * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-} */
+* {
+  /* padding: 0;
+  margin: 0; */
+  /* box-sizing: border-box; */
+  /* font-family: 'Open Sans', sans-serif; */
+}
 
 :root {
   --bgc-color: #121238;
@@ -38,6 +41,7 @@ a {
   color: var(--primary-text);
   max-width: 100%;
   overflow-x: hidden;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .link-title-heading,
@@ -79,8 +83,9 @@ body {
   background-color: var(--bgc-color);
   color: var(--primary-text);
   /* font-family: 'Roboto Mono', monospace; */
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
   /* font-family: 'Cascadia Code', sans-serif; */
+  font-family: 'Open Sans', sans-serif;
 
   scroll-behavior: smooth;
   line-height: 2;
@@ -150,6 +155,7 @@ img:hover {
   overflow: hidden;
   margin: 40px 0;
   padding: 40px 0;
+  max-height: 600px; /* gives each individual article equal height */
 }
 
 .link-article:hover {
