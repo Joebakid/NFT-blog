@@ -95,7 +95,8 @@ body {
 }
 
 p {
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Roboto Mono', monospace; */
   /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 }
 
@@ -271,6 +272,7 @@ footer {
   /* display: flex; */
   font-size: 14px;
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .link-author:hover {
