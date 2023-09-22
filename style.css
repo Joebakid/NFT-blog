@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&display=swap');
+
 * {
   /* padding: 0;
   margin: 0; */
@@ -42,7 +44,7 @@ a {
 }
 
 .logo {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* font-family: 'Kanit', sans-serif; */
 }
 
 .nav {
@@ -84,7 +86,7 @@ body {
 }
 
 p {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Kanit', sans-serif;
   line-height: 3;
 }
 
@@ -190,6 +192,13 @@ img:hover {
   color: var(--link-color);
 }
 
+.return-home-link {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 10px;
+}
+
 .main-dark-nft {
   font-size: 1rem;
 }
@@ -229,7 +238,7 @@ img:hover {
 
 .general-link a {
   padding: 5px 0px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Kanit', sans-serif;
   font-size: 16px;
   transition: all ease-in 0.5s;
 }
@@ -238,7 +247,7 @@ img:hover {
   /* font-weight: bold; */
   color: var(--transition-color);
   font-size: 16px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Kanit', sans-serif;
 }
 
 .foooter-div-container {
@@ -260,7 +269,7 @@ footer {
   /* display: flex; */
   font-size: 14px;
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Kanit', sans-serif;
 }
 
 .link-author:hover {
@@ -271,7 +280,7 @@ footer {
   display: inline-block;
   font-size: 1.1rem;
   word-spacing: 10px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Kanit', sans-serif;
   color: var(--footer-color);
 }
 
@@ -281,7 +290,7 @@ footer {
   padding: 150px 0;
   overflow-x: hidden;
   padding: 30px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Kanit', sans-serif;
   /* font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; */
 }
 
@@ -541,6 +550,11 @@ li {
     width: 50%;
     margin: 0 auto;
     padding: 50px 0;
+  }
+
+  .container-destop img {
+    /* width: 600px;
+    height: 400px; */
   }
 
   /* .foooter-div-container {
