@@ -87,7 +87,7 @@ body {
 
 p {
   font-family: 'Kanit', sans-serif;
-  line-height: 3;
+  line-height: 2.5;
 }
 
 nav ul {
@@ -482,6 +482,17 @@ li {
 
 .link-title-heading {
   margin-bottom: 0px;
+}
+
+.estimated-launch-time {
+  /* display: flex;
+  gap: 5px; */
+  background-color: wheat;
+  color: black;
+  padding: 20px;
+  margin: 20px 0;
+  overflow: hidden;
+  /* display: inline-block; */
 }
 
 /* DARK-NFT */
