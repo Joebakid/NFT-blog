@@ -64,6 +64,12 @@ a {
   transition: transform 0.3s ease-in-out;
 }
 
+.icon-img {
+  background-color: #afa9a9ee;
+  padding: 20px;
+  border-radius: 24px;
+}
+
 header {
   width: 90%;
   margin: 0 auto;
@@ -302,6 +308,7 @@ footer {
   overflow-x: hidden;
   padding: 30px;
   font-family: 'Kanit', sans-serif;
+  box-sizing: border-box;
   /* font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; */
 }
 

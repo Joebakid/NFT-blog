@@ -30,4 +30,3 @@ function updateIcon(theme) {
     icon.style.transform = 'rotate(0deg)';
   }
 }
- 
