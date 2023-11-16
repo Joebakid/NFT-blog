@@ -250,6 +250,10 @@ img:hover {
   cursor: pointer;
 }
 
+.close {
+  text-align: right;
+}
+
 .side-bar {
   position: fixed;
   top: 0%;

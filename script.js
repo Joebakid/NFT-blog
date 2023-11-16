@@ -33,6 +33,7 @@ function updateIcon(theme) {
 
 const menu = document.querySelector('.hamburger');
 const sidebarOpen = document.querySelector('.side-bar');
+const menuChild = document.querySelectorAll('.linking-projec');
 
 menu.addEventListener('click', function () {
   sidebarOpen.style.display = 'flex';
@@ -42,4 +43,11 @@ const sidebarClose = document.querySelector('.close');
 
 sidebarClose.addEventListener('click', function () {
   sidebarOpen.style.display = 'none';
+});
+
+menuChild.forEach(function (item) {
+  item.addEventListener('click', function () {
+    sidebarOpen.style.display = 'none';
+    sidebarOpen.style.transition = 'all 0.5s ease-out';
+  });
 });
