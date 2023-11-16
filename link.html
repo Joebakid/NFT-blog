@@ -28,31 +28,7 @@
     </style>
   </head>
   <body>
-    <header>
-      <div class=" ">
-        <nav class="nav">
-          <ul>
-            <!-- <li class="logo">Blog</li> -->
-            <li class="logo">
-              <!-- <ion-icon
-                name="analytics-outline"
-                class="icon-logo"
-                size="large"
-              ></ion-icon> -->
-              Øxbakid.eth
-            </li>
-          </ul>
-          <img
-            class="icon-img"
-            src="dark theme icon/moon.png"
-            alt=""
-            id="icon"
-          />
-        </nav>
-      </div>
-    </header>
-
-    <div class="container-destop py-3">
+    <nav class="flex-box">
       <a href="index.html" class="nav-inner-link return-home-link">
         <ion-icon
           name="arrow-back-outline"
@@ -61,6 +37,50 @@
         ></ion-icon>
         Back
       </a>
+
+      <div class="hamburger">MENU</div>
+    </nav>
+
+    <div class="container-destop">
+      <nav class="navigation-link">
+        <ul class="side-bar">
+          <img
+            class="icon-img"
+            src="dark theme icon/moon.png"
+            alt=""
+            id="icon"
+          />
+
+          <li class="nav-link-project close">CLOSE</li>
+          <li class="nav-link-project">
+            <a class="linking-projec" href="#Layerzero">Layerzero</a>
+          </li>
+          <li class="nav-link-project">
+            <a class="linking-projec" href="#Zksync">Zksync</a>
+          </li>
+          <li class="nav-link-project">
+            <a class="linking-projec" href="#Linea">Linea</a>
+          </li>
+          <li class="nav-link-project">
+            <a class="linking-projec" href="#Base">Base</a>
+          </li>
+          <li class="nav-link-project">
+            <a class="linking-projec" href="#Zora">Zora</a>
+          </li>
+          <li class="nav-link-project">
+            <a class="linking-projec" href="#Starknet">Starknet</a>
+          </li>
+          <li class="nav-link-project">
+            <a class="linking-projec" href="#ZkEVM">ZkEVM</a>
+          </li>
+          <li class="nav-link-project">
+            <a class="linking-projec" href="#Opbnb"> Opbnb</a>
+          </li>
+          <li class="nav-link-project">
+            <a class="linking-projec" href="#Scroll">Scroll</a>
+          </li>
+        </ul>
+      </nav>
     </div>
 
     <main class="main-dark-nft">
@@ -72,7 +92,7 @@
             <img src="dark theme icon/evaluation.jpg" class="img py-2" alt="" />
           </div>
 
-          <div class="my-3">
+          <div class="my-3" id="Layerzero">
             <h2>LAYERZERO</h2>
             <a class="links-project" href="https://twitter.com/LayerZero_Labs"
               >@LayerZero_Labs</a
@@ -182,7 +202,7 @@
             </p>
           </div>
 
-          <div class="my-3">
+          <div class="my-3" id="Zksync">
             <h2>ZKSYNC ERA</h2>
             <a class="links-project" href="https://twitter.com/zksync"
               >@Zksync</a
@@ -322,7 +342,7 @@
             </p>
           </div>
 
-          <div class="my-3">
+          <div class="my-3" id="Linea">
             <h2>LINEA</h2>
             <a class="links-project" href="https://twitter.com/LineaBuild"
               >@LineaBuild</a
@@ -391,7 +411,7 @@
             </p>
           </div>
 
-          <div class="my-3">
+          <div class="my-3" id="Base">
             <h2>BASE</h2>
             <a class="links-project" href="https://twitter.com/BuildOnBase"
               >@BuildOnBase</a
@@ -449,7 +469,7 @@
             </p>
           </div>
 
-          <div class="my-3">
+          <div class="my-3" id="Zora">
             <h2>ZORA</h2>
             <a class="links-project" href="https://twitter.com/ourZORA"
               >@ourZORA</a
@@ -499,7 +519,7 @@
             </p>
           </div>
 
-          <div class="my-3">
+          <div class="my-3" id="Starknet">
             <h2>STARKNET</h2>
             <a class="links-project" href="https://twitter.com/Starknet"
               >@Starknet ✨🐺
@@ -571,7 +591,7 @@
             </p>
           </div>
 
-          <div class="my-3">
+          <div class="my-3" id="ZkEVM">
             <h2>POLYGON ZKEVM</h2>
             <a class="links-project" href="https://twitter.com/0xPolygonDeFi"
               >@0xPolygonDeFi</a
@@ -651,7 +671,7 @@
             </p>
           </div>
 
-          <div class="my-3">
+          <div class="my-3" id="Opbnb">
             <h2>Opbnb</h2>
             <!-- <a class="links-project" href="https://twitter.com/0xPolygonDeFi"
               >@0xPolygonDeFi</a
@@ -687,7 +707,7 @@
             </p>
           </div>
 
-          <div class="my-3">
+          <div class="my-3" id="Scroll">
             <h2>Scroll</h2>
             <a class="links-project" href="https://twitter.com/Scroll_ZKP"
               >@Scroll_ZKP</a
@@ -829,5 +849,11 @@
         aTag.setAttribute('target', '_blank');
       }
     }
+
+    const linksNav = document.querySelectorAll('.linking-projec');
+
+    linksNav.forEach(link => {
+      link.removeAttribute('target');
+    });
   </script>
 </html>

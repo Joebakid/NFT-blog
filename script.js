@@ -30,3 +30,16 @@ function updateIcon(theme) {
     icon.style.transform = 'rotate(0deg)';
   }
 }
+
+const menu = document.querySelector('.hamburger');
+const sidebarOpen = document.querySelector('.side-bar');
+
+menu.addEventListener('click', function () {
+  sidebarOpen.style.display = 'flex';
+});
+
+const sidebarClose = document.querySelector('.close');
+
+sidebarClose.addEventListener('click', function () {
+  sidebarOpen.style.display = 'none';
+});
