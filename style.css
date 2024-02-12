@@ -316,6 +316,8 @@ img:hover {
   font-family: 'Poppins', sans-serif;
   margin: 40px 0;
   text-transform: uppercase;
+  text-align: center;
+  padding: 40px 0;
 }
 
 .section {
@@ -593,6 +595,22 @@ li {
   /* display: inline-block; */
 }
 
+.dex-hunt {
+  font-size: 1.6rem;
+}
+
+ul {
+}
+
+li {
+  list-style: lower-greek;
+}
+
+.estimated-launch-time-twitter {
+  color: blue;
+  font-size: 1.2rem;
+}
+
 /* DARK-NFT */
 
 @media screen and (min-width: 740px) {
@@ -609,19 +627,19 @@ li {
     overflow-x: hidden;
   }
 
-  .flex-box {
+  /* .flex-box {
     left: 20%;
     right: 20%;
     width: 50%;
     padding: 20px;
-  }
+  } */
 }
 
 @media screen and (min-width: 1200px) {
   .flex-box {
     left: 20%;
     right: 20%;
-    width: 50%;
+    /* width: 100%; */
     padding: 20px;
   }
 
