@@ -317,7 +317,7 @@ img:hover {
 
 .topic-link {
   font-weight: bolder;
-  font-family: 'Poppins', sans-serif;
+  font-family:inherit;
   margin: 40px 0;
   text-transform: uppercase;
   text-align: center;
