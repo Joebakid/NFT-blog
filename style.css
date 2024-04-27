@@ -10,6 +10,7 @@
   /* box-sizing: border-box; */
   /* font-family: 'Open Sans', sans-serif; */
   scroll-behavior: smooth;
+  font-family: "Chelsea Market", system-ui;
 }
 
 :root {
@@ -102,7 +103,7 @@ body {
 }
 
 p {
-  font-family: 'Kanit', sans-serif;
+  font-family: inherit;
   line-height: 2.5;
 }
 
