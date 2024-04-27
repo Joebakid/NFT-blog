@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
 * {
   /* padding: 0;
   margin: 0; */
@@ -88,7 +90,9 @@ body {
   font-size: 16px;
   background-color: var(--bgc-color);
   color: var(--primary-text);
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: "Chelsea Market", system-ui;
+  font-weight: 400;
   overflow-x: hidden;
   scroll-behavior: smooth;
   line-height: 2;
@@ -258,7 +262,7 @@ img:hover {
   position: fixed;
   top: 0%;
   right: 0;
-  height: 100vh;
+  height: 120vh;
   width: 250px;
   /* backdrop-filter: blur(10px); */
   z-index: 2;
@@ -271,7 +275,6 @@ img:hover {
   justify-content: flex-start;
   text-align: left;
   padding: 50px;
-
   transition: all 0.5s ease-in;
 }
 
