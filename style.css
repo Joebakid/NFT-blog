@@ -478,6 +478,7 @@ li {
 .links-project {
   color: #45a049;
   transition: all ease-in-out 0.5s;
+  font-family: inherit;
 }
 
 .links-project:hover {
